@@ -26,7 +26,7 @@ body
 
 @-webkit-keyframes square4a
 {
-	from {top:51px;right:200px;}
+	from {top:50px;right:200px;}
 	to {top:50px;right:150px;}
 }
 
@@ -59,8 +59,8 @@ p.square1
 {
 	background:url(sq1.png) no-repeat;position:absolute;
 	height:50px;width:100px;
-	-webkit-animation:square1a 2s;
-	animation:square1a 2s;
+	-webkit-animation:square1a 3.5s;
+	animation:square1a 5s;
 	top:50px;right:50px;
 }
 
@@ -68,8 +68,8 @@ p.square2
 {
 	background:url(sq2.png) no-repeat;position:absolute;
 	height:50px;width:100px;
-	-webkit-animation:square2a 2s;
-	animation:square2a 2s;
+	-webkit-animation:square2a 3.5s;
+	animation:square2a 5s;
 	top:150px;right:100px;
 }
 
@@ -77,8 +77,8 @@ p.square3
 {
 	background:url(sq3.png) no-repeat;position:absolute;
 	height:100px;width:50px;
-	-webkit-animation:square3a 2s;
-	animation:square3a 2s;
+	-webkit-animation:square3a 3.5s;
+	animation:square3a 5s;
 	top:100px;right:50px;
 }
 
@@ -86,8 +86,8 @@ p.square4
 {
 	background:url(sq4.png) no-repeat;position:absolute;
 	height:100px;width:50px;
-	-webkit-animation:square4a 2s;
-	animation:square4a 2s;
+	-webkit-animation:square4a 3.5s;
+	animation:square4a 5s;
 	top:50px;right:150px;
 }
 
