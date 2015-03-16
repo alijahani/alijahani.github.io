@@ -1,0 +1,93 @@
+body
+{
+	font-family: 'Josefin Sans';
+	background:#00253D;
+	color:white;
+}
+
+
+@-webkit-keyframes square1a
+{
+	from {top:0px;right:50px;}
+	to {top:50px;right:50px;}
+}
+
+@-webkit-keyframes square2a
+{
+	from {top:200px;right:100px;}
+	to {top:150px;right:100px;}
+}
+
+@-webkit-keyframes square3a
+{
+	from {top:100px;right:0px;}
+	to {top:100px;right:50px;}
+}
+
+@-webkit-keyframes square4a
+{
+	from {top:51px;right:200px;}
+	to {top:50px;right:150px;}
+}
+
+@keyframes square1a
+{
+	from {top:0px;right:50px;}
+	to {top:50px;right:50px;}
+}
+
+@keyframes square2a
+{
+	from {top:200px;right:100px;}
+	to {top:150px;right:100px;}
+}
+
+@keyframes square3a
+{
+	from {top:100px;right:0px;}
+	to {top:100px;right:50px;}
+}
+
+@keyframes square4a
+{
+	from {top:50px;right:200px;}
+	to {top:50px;right:150px;}
+}
+
+
+p.square1
+{
+	background:url(sq1.png) no-repeat;position:absolute;
+	height:50px;width:100px;
+	-webkit-animation:square1a 2s;
+	animation:square1a 2s;
+	top:50px;right:50px;
+}
+
+p.square2
+{
+	background:url(sq2.png) no-repeat;position:absolute;
+	height:50px;width:100px;
+	-webkit-animation:square2a 2s;
+	animation:square2a 2s;
+	top:150px;right:100px;
+}
+
+p.square3
+{
+	background:url(sq3.png) no-repeat;position:absolute;
+	height:100px;width:50px;
+	-webkit-animation:square3a 2s;
+	animation:square3a 2s;
+	top:100px;right:50px;
+}
+
+p.square4
+{
+	background:url(sq4.png) no-repeat;position:absolute;
+	height:100px;width:50px;
+	-webkit-animation:square4a 2s;
+	animation:square4a 2s;
+	top:50px;right:150px;
+}
+
