@@ -1,7 +1,8 @@
 body
 {
 	font-family: 'Josefin Sans';
-	background:#00253D;
+	font-weight:bold;
+	background:url('coding2.png')no-repeat;
 	color:white;
 }
 
