@@ -8,11 +8,7 @@
 		<!--
 		function SH(base64) 
 		{
-			console.log(base64);
-			var img=document.createElement("img");
-			img.alt="screenshot";
-			img.src="data:image/png;base64,"+base64;
-			document.body.appendChild(img);
+			window.open("data:image/png;base64," + base64);
 		}
 		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
 		if (document.location.protocol == 'https:')
